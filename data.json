@@ -1,0 +1,62 @@
+{
+    "students": [
+        {
+            "name": "a",
+            "age": 2,
+            "address": "b",
+            "student_id": "20203004",
+            "grades": {},
+            "courses": []
+        },
+        {
+            "name": "v",
+            "age": 3,
+            "address": "e",
+            "student_id": "20203005",
+            "grades": {
+                "a": "A"
+            },
+            "courses": [
+                "a"
+            ]
+        },
+        {
+            "name": "r",
+            "age": 24,
+            "address": "sds",
+            "student_id": "20203006",
+            "grades": {},
+            "courses": []
+        },
+        {
+            "name": "redwan",
+            "age": 24,
+            "address": "Uttara",
+            "student_id": "2020",
+            "grades": {
+                "Computer Architecture": "A"
+            },
+            "courses": [
+                "Computer Architecture"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "course_name": "a",
+            "course_code": "ader",
+            "instructor": "sde",
+            "students": [
+                "20203005"
+            ]
+        },
+        {
+            "course_name": "Computer Architecture",
+            "course_code": "CSC147",
+            "instructor": "Shahin",
+            "students": [
+                "2020"
+            ]
+        }
+    ]
+}
